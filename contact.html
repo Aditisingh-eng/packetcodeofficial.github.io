@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body id="contact">
+<div class="container">
+	<header class="header">
+		<a class="link-title" href="/">Minimalistic Website</a>
+	</header>
+	<nav class="menu">
+		<a href="/">Home</a>&nbsp;&nbsp;&nbsp;
+		<a href="about.html">About us</a>&nbsp;&nbsp;&nbsp;
+		<a href="contact.html">Contact</a>&nbsp;&nbsp;&nbsp;
+	</nav>
+	<aside>
+		<h1>Side Bar</h1>
+	</aside>
+	<article class="main">
+		<h1 class="page-heading">Contact</h1>
+		<div id="form">
+		<form action="process.php"></form>
+		<p>
+			<label for="name">Name:</label>
+			<input type="text" name="name" placeholder="enter your name">
+		</p>
+		<p>
+			<label for="email">Email:</label>
+			<input type="email" name="email" placeholder="enter email eg:xyz@gmail.com">
+		</p>
+		<p>
+			 <label for="name">Subject:</label>
+			 <input type="text" name="subject" placeholder="mention your subject">
+		</p>
+		<p>
+			<label  for="message" >Message </label>
+			<textarea name="message" id="message" cols="30" rows="10"></textarea>
+		</p>
+		<p>
+			 <input id="submit" type="submit" name="submit" value="send message">
+			</p>
+            </form>
+        </div>
+		</article>  
+	<footer>
+		&copy;2030 Minimal Website &nbsp;<span class="separator">|</span>
+		Design by <a href="http://www.google.com"> Aditi Singh</a>
+	</footer>
+    <style>
+         body{
+    background:#F4F4F4;
+    margin:0;
+}
+        .link-title{
+            text-decoration: none;
+            font-size: 24px;
+            color: #444444;
+        }
+.container{
+    width:780px;
+    margin:0 auto;
+    background: #FFF;
+    box-shadow: 0px 9px 13px 5px;
+}
+.header{
+    padding: 45px 0 20px 40px;
+    
+        }
+        .menu{
+            background:blue;
+            padding:6px 0 6px 40px;
+        } 
+        .menu a{
+            color: #c5d6db;
+            text-decoration: none;
+            font-size: 14px;
+            font-family: "Arial Narrow","Myriad Pro";
+        }
+        .menu a:hover{
+            color: #ecf2f3;
+        }
+        aside{
+            float:left;
+            width: 120px;
+            padding:30px 0 0 40px;
+        }
+        h1{
+            margin: 0px;
+            color: #869843;
+            fony-size:24px;
+            font-family: "Arial Narrow","Myriad Pro";
+            font-weight: :normal;
+        }
+        h2{
+            color: #3b7687;
+            font-size: 15px;
+            margin: 20px 0 5px 0;
+        }
+        .main{
+            margin: 0 0 0 180px;
+            padding: 35px 40px 30px 0;
+            color: #444444;
+            font-family: "Georgia";
+            font-size: "18px";
+            line-height: 18px;
+            text-emphasis: justify;
+        }
+        .main a:hover{
+            color: #444444;
+        }
+        footer{
+            padding:6px 40px 6px 40px;
+            background: #d6d6d6;
+            font-family: "Lucida Sans Unicode";
+            color:#444444;
+            font-size: 11px;
+            text-decoration: right;
+        }
+        footer a{
+            text-decoration: none;
+            color: #262626;
+        }
+        .separator{
+            color: #FFFFFF;
+            font-size: 11px;
+        }
+        #contact #form{
+            width: 500px;
+            box-shadow: 0px 9px 13px 5px;
+            padding: 10px 10px 10px 10px;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+        #contact .page-heading{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #contact #form input{
+            width: 100%;
+            border-radius: 5px;
+            height: 20px;
+            background: #D6D6D6;
+        }
+        #contact #form #message{
+            width: 100%;
+            border-radius: 5px;
+            background: #D6D6D6;
+        }
+        #contact #form #submit{
+            height: 30px;
+            background: rgb(59,118,135);
+        }
+
+    </style>
+		
+</body>
+</html>
